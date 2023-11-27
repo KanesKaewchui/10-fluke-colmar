@@ -86,3 +86,70 @@
     background-color: #494949;
 }
 
+.information-container{
+    display: flex;
+    background-color: #fff;
+    height: 50rem;
+}
+
+.information{
+    width: 100%;
+    flex: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 24px 0px 0px;
+}
+
+.information img{
+    width: 100%;
+    margin: 32px 24px 32px 24px;
+}
+
+.information h2{
+    padding: 24px;
+    font-size: 30px;
+    color: #494949;
+}
+
+.text-information{
+    padding-left: 24px;
+    font-size: 18px;
+}
+
+.credit{
+    padding-top: 32px;
+    padding-left: 24px;
+}
+
+.all-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex: 40%;
+    margin-top: 16px;
+}
+
+.card-container{
+    display: flex;
+    align-items: center;
+}
+
+.card-container img{
+    padding: 16px;
+    object-fit: cover;
+    height: auto;
+    width: 35%;
+}
+
+.card-titl{
+    font-weight: bold;
+}
+
+.text-card{
+    padding: 10px 0 10px 0;
+}
+
+.read-more{
+    text-decoration: none;
+    color: rgb(0, 139, 252);
+}
